@@ -13,3 +13,4 @@
 * Prioritization of stories & epics (Based on velocity, we can determine what features we can do first or if we cut out these stories, we can get it done faster"
 * Determine the time it will take to deliver a feature based on average points per sprint 
 
+##Standing up the
