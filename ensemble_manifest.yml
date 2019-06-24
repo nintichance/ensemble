@@ -1,0 +1,9 @@
+applications:
+- name: ensemble
+  buildpack: ruby_buildpack_future
+  disk_quota: 512M
+  instances: 1
+  memory: 128M
+  routes:
+  - route: ensemble.apps-np.homedepot.com
+  stack: cflinuxfs3
