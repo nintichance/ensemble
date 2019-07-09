@@ -75,11 +75,11 @@ test:
 #
 # You can use this database configuration with:
 #
-#   production:
-#     url: <%= ENV['DATABASE_URL'] %>
-#
-production:
-  <<: *default
-  database: ensemble_production
-  username: ensemble
-  password: <%= ENV['ENSEMBLE_DATABASE_PASSWORD'] %>
+  production:
+    url: <%= ENV['DATABASE_URL'] %>
+
+# production:
+#   <<: *default
+#   database: qapgdb334
+#   username: db334adm
+#   password: <%= ENV['ENSEMBLE_DATABASE_PASSWORD'] %>
